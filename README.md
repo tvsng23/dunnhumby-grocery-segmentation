@@ -33,8 +33,10 @@ We engineered a **16-feature behavioral vector** categorized into 6 MECE groups:
 ```text
 .
 ├── notebooks/          # Main analysis notebook (Data cleaning, EDA, Clustering)
-├── output/             # Processed feature matrices and cluster labels
-├── figures/            # Visualizations (PCA, Radar charts, Correlation)
+├── output/             
+│   ├── ...             # Processed feature matrices and cluster labels
+│   ├── ...
+│   └── figures/        # Visualizations (PCA, Radar charts, Correlation)    
 ├── reports/            # Final Analysis Report (PDF)
 ├── .gitignore          # Rules to exclude raw data and temporary files
 ├── requirements.txt    # Python dependencies
